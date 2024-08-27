@@ -11,7 +11,7 @@ const sum = function (arrayOfNums) {
 };
 
 const multiply = function (arrayOfNums) {
-  return arrayOfNums.reduce((total, num) => total * num, 1);
+  return arrayOfNums.reduce((total, num) => total * num);
 };
 
 const power = function (num, factorial) {
